@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    min-height: 100vh;
+    color: black;
+    background-color: black;
+    background-image: url(../imagenes/fondos/fondobits.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: cover ;
+    background-position: top;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: red;
+    font-family: Philosopher;
+}
+
+form{
+    max-width: 400px;
+    margin: 50px auto 200px auto;
+    border: thin solid rgb(255, 3, 3);
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.459);
+    background-color: white;
+    font-family: Martel;
+    
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: thin solid rgb(245, 245, 245);
+    font-family: Martel;
+}
+
+form input:focus {
+    background-color: #727272; 
+}
+
+form button{
+    background: rgb(156, 0, 26);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: Philosopher;
+}
+
+form button:active {
+    background: rgb(59, 117, 59);
+    background-image: url(../imagenes/fondos/logomalus.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 80px;
+}
+
+/*-----BOTON REGRESAR-------*/
+#boton-regresar {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    font-family: Martel;
+}
+
+#boton-regresar:hover{
+    color: black;
+    background-color: #4e0808;
+    background-image: url(../imagenes/fondos/logomalus.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+/*-------------------------FONTS--------------------------------------*/
+@font-face {
+    font-family: Martel;
+    src: url(../fonts/Martel-Regular.ttf);
+}
+
+@font-face{
+    font-family: Devil;
+    src: url(../fonts/Devils\ Crew.otf);
+}
+
+@font-face{
+    font-family: Philosopher;
+    src: url(../fonts/Philosopher-Bold.ttf);
+}
+        
+
